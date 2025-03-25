@@ -137,3 +137,22 @@ footer {
   padding: 2em;
   font-size: 12px;
 }
+
+/* Adjust styles for mobile screens */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+    h3 {
+        font-size: 1.2em;
+    }
+    .texts p,
+    .car-info .description,
+    .car-info .pop {
+        font-size: 0.9em;
+    }
+    .car-tabs img {
+        max-width: 100%;
+    }
+}
+
