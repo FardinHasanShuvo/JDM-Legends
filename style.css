@@ -15,7 +15,7 @@ header {
     text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* Adds subtle text shadow for better visibility */
     padding: 20px;
     background-color: #bc002d; /* Signature red color for emphasis */
-    text-align: center; /* Centers the header text */
+    text-align: Left; /* Centers the header text */
 }
 
 /* Typography */
@@ -108,27 +108,10 @@ h3 {
 footer {
     padding: 10px;
     font-size: 12px;
-    text-align: center;
+    text-align: left;
 }
 
 /* Responsive Design */
-/* Adjust styles for tablets and smaller screens */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 1.8em;
-    }
-    h3 {
-        font-size: 1.3em;
-    }
-    .texts p,
-    .car-info .description,
-    .car-info .pop {
-        font-size: 1em;
-    }
-    .car-tabs img {
-        max-width: 300px;
-    }
-}
 
 /* Adjust styles for mobile screens */
 @media (max-width: 768px) {
@@ -146,4 +129,6 @@ footer {
     .car-tabs img {
         max-width: 100%;
     }
+
+    
 }
